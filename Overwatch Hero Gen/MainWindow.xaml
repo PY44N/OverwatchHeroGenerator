@@ -15,13 +15,10 @@
             <ColumnDefinition Width="9*"/>
             <ColumnDefinition Width="7*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="GenButton" Content="Generate All" HorizontalAlignment="Left" VerticalAlignment="Top" Width="212" Margin="55,38,0,0" Height="36" FontSize="24" Grid.ColumnSpan="2" Click="GenButton_Click" Grid.Row="1"/>
+        <Button x:Name="GenButton" Content="Generate All" HorizontalAlignment="Left" VerticalAlignment="Top" Width="212" Margin="55,10,0,0" Height="64" FontSize="24" Grid.ColumnSpan="2" Click="GenButton_Click" Grid.Row="1"/>
         <Label x:Name="HeroLabel" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,29,0,0" Height="65" Width="302" FontSize="36" HorizontalContentAlignment="Center" Grid.ColumnSpan="2"/>
         <Label x:Name="Credits" Content="Open Source Overwatch Hero Gen by Pyan" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="53,74.28,0,0" Grid.ColumnSpan="2" Width="214" HorizontalContentAlignment="Center" FontSize="9" Grid.Row="1"/>
         <Label x:Name="Link" Content="https://github.com/PY44N/OverwatchHeroGenerator" HorizontalAlignment="Left" Margin="34,89.28,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="249" FontSize="8" HorizontalContentAlignment="Center" Grid.Row="1"/>
-        <Button x:Name="GenTank" Content="Generate&#xD;&#xA;Tank" HorizontalAlignment="Left" VerticalAlignment="Top" Width="68" Margin="55,159,0,0" Height="39" FontSize="10" Grid.RowSpan="2" HorizontalContentAlignment="Center" Click="GenTank_Click"/>
-        <Button x:Name="GenDamage" Content="Generate&#xD;&#xA;Damage" HorizontalAlignment="Left" VerticalAlignment="Top" Width="68" Margin="128,159,0,0" Height="39" FontSize="10" Grid.ColumnSpan="2" Grid.RowSpan="2" Click="GenDamage_Click" RenderTransformOrigin="0.415,0.483"/>
-        <Button x:Name="GenSupport" Content="Generate&#xD;&#xA;Support" HorizontalAlignment="Left" VerticalAlignment="Top" Width="68" Margin="18,159,0,0" Height="39" FontSize="10" Grid.Column="1" Grid.RowSpan="2" Click="GenSupport_Click"/>
 
     </Grid>
 </Window>
