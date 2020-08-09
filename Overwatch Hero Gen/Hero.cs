@@ -15,6 +15,158 @@ namespace Overwatch_Hero_Gen
             return _random.Next(min, max);
         }
 
+        public static string GenTank()
+        {
+            int HeroNum = RandomNumber(1, 8);
+
+            if (HeroNum == 1)
+            {
+                return "D.VA";
+            }
+            if (HeroNum == 2)
+            {
+                return "ORISA";
+            }
+            if (HeroNum == 3)
+            {
+                return "REINHARDT";
+            }
+            if (HeroNum == 4)
+            {
+                return "ROADHOG";
+            }
+            if (HeroNum == 5)
+            {
+                return "SIGMA";
+            }
+            if (HeroNum == 6)
+            {
+                return "WINSTON";
+            }
+            if (HeroNum == 7)
+            {
+                return "WRECKING BALL";
+            }
+            if (HeroNum == 8)
+            {
+                return "ZARYA";
+            }
+
+            return "ERROR";
+        }
+
+        public static string GenDamage()
+        {
+            int HeroNum = RandomNumber(1, 17);
+
+            if (HeroNum == 1)
+            {
+                return "ASHE";
+            }
+            if (HeroNum == 2)
+            {
+                return "BASTION";
+            }
+            if (HeroNum == 3)
+            {
+                return "DOOMFIST";
+            }
+            if (HeroNum == 4)
+            {
+                return "ECHO";
+            }
+            if (HeroNum == 5)
+            {
+                return "GENJI";
+            }
+            if (HeroNum == 6)
+            {
+                return "HANZO";
+            }
+            if (HeroNum == 7)
+            {
+                return "JUNKRAT";
+            }
+            if (HeroNum == 8)
+            {
+                return "MCCREE";
+            }
+            if (HeroNum == 9)
+            {
+                return "MEI";
+            }
+            if (HeroNum == 10)
+            {
+                return "PHARAH";
+            }
+            if (HeroNum == 11)
+            {
+                return "REAPER";
+            }
+            if (HeroNum == 12)
+            {
+                return "SOLDIER: 76";
+            }
+            if (HeroNum == 13)
+            {
+                return "SOMBRA";
+            }
+            if (HeroNum == 14)
+            {
+                return "SYMMETRA";
+            }
+            if (HeroNum == 15)
+            {
+                return "TORBJÖRN";
+            }
+            if (HeroNum == 16)
+            {
+                return "TRACER";
+            }
+            if (HeroNum == 17)
+            {
+                return "WIDOWMAKER";
+            }
+
+            return "ERROR";
+        }
+
+        public static string GenSupport()
+        {
+            int HeroNum = RandomNumber(1, 7);
+
+            if (HeroNum == 1)
+            {
+                return "ANA";
+            }
+            if (HeroNum == 2)
+            {
+                return "BAPTISTE";
+            }
+            if (HeroNum == 3)
+            {
+                return "BRIGITTE";
+            }
+            if (HeroNum == 4)
+            {
+                return "LÚCIO";
+            }
+            if (HeroNum == 5)
+            {
+                return "MERCY";
+            }
+            if (HeroNum == 6)
+            {
+                return "MOIRA";
+            }
+            if (HeroNum == 7)
+            {
+                return "ZENYATTA";
+            }
+
+            return "ERROR";
+        }
+
         public static string Gen()
         {
             int HeroNum = RandomNumber(1, 32);

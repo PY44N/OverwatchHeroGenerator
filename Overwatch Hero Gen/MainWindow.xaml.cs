@@ -27,5 +27,20 @@ namespace Overwatch_Hero_Gen
         {
             HeroLabel.Content = Hero.Gen();
         }
+
+        private void GenTank_Click(object sender, RoutedEventArgs e)
+        {
+            HeroLabel.Content = Hero.GenTank();
+        }
+
+        private void GenDamage_Click(object sender, RoutedEventArgs e)
+        {
+            HeroLabel.Content = Hero.GenDamage();
+        }
+
+        private void GenSupport_Click(object sender, RoutedEventArgs e)
+        {
+            HeroLabel.Content = Hero.GenSupport();
+        }
     }
 }
