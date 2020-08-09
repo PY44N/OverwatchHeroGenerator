@@ -11,8 +11,10 @@
             <ColumnDefinition Width="9*"/>
             <ColumnDefinition Width="7*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="GenButton" Content="Generate Hero" HorizontalAlignment="Left" VerticalAlignment="Top" Width="214" Margin="53,142,0,0" Height="108" FontSize="32" Grid.ColumnSpan="2" Click="GenButton_Click"/>
+        <Button x:Name="GenButton" Content="Generate Hero" HorizontalAlignment="Left" VerticalAlignment="Top" Width="214" Margin="53,142,0,0" Height="97" FontSize="32" Grid.ColumnSpan="2" Click="GenButton_Click"/>
         <Label x:Name="HeroLabel" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,29,0,0" Height="65" Width="302" FontSize="36" HorizontalContentAlignment="Center" Grid.ColumnSpan="2"/>
+        <Label x:Name="Credits" Content="Open Source Overwatch Hero Gen by Pyan" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="53,239,0,0" Grid.ColumnSpan="2" Width="214" HorizontalContentAlignment="Center" FontSize="9"/>
+        <Label x:Name="Link" Content="https://github.com/PY44N/OverwatchHeroGenerator" HorizontalAlignment="Left" Margin="34,254,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="249" FontSize="8" HorizontalContentAlignment="Center"/>
 
     </Grid>
 </Window>
