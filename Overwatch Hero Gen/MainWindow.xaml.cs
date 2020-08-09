@@ -15,6 +15,9 @@ using System.Windows.Shapes;
 
 namespace Overwatch_Hero_Gen
 {
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()

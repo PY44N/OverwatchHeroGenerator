@@ -1,24 +1,22 @@
-﻿<Window x:Name="Window" x:Class="Overwatch_Hero_Gen.MainWindow"
+﻿<Window x:Name="MainWindow1" x:Class="Overwatch_Hero_Gen.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Overwatch_Hero_Gen"
         mc:Ignorable="d"
-        Title="Overwatch Hero Gen" Height="317.575" Width="327.929" ResizeMode="CanMinimize">
+        Title="Overwatch Hero Gen" Height="404.132" Width="270.661" ResizeMode="CanMinimize" Icon="OverwatchHeroGenIcon.ico">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="165*"/>
-            <RowDefinition Height="124*"/>
+            <RowDefinition Height="191*"/>
+            <RowDefinition Height="184*"/>
         </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="9*"/>
-            <ColumnDefinition Width="7*"/>
-        </Grid.ColumnDefinitions>
-        <Button x:Name="GenButton" Content="Generate" HorizontalAlignment="Left" VerticalAlignment="Top" Width="212" Margin="55,10,0,0" Height="64" FontSize="36" Grid.ColumnSpan="2" Click="GenButton_Click" Grid.Row="1"/>
-        <Label x:Name="HeroLabel" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,29,0,0" Height="65" Width="302" FontSize="36" HorizontalContentAlignment="Center" Grid.ColumnSpan="2"/>
-        <Label x:Name="Credits" Content="Open Source Overwatch Hero Gen by Pyan" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="53,74.28,0,0" Grid.ColumnSpan="2" Width="214" HorizontalContentAlignment="Center" FontSize="9" Grid.Row="1"/>
-        <Label x:Name="Link" Content="https://github.com/PY44N/OverwatchHeroGenerator" HorizontalAlignment="Left" Margin="34,89.28,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="249" FontSize="8" HorizontalContentAlignment="Center" Grid.Row="1"/>
-
+        <Label x:Name="HeroLabel" Content="" HorizontalAlignment="Left" Margin="42,38,0,0" VerticalAlignment="Top" FontSize="23" Height="70" Width="181" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="GenButton" Content="Generate" HorizontalAlignment="Left" Margin="42,16,0,0" VerticalAlignment="Top" Width="181" Height="115" FontSize="36" Click="GenButton_Click" Grid.Row="1"/>
+        <Button x:Name="GenTank" Content="Generate&#xD;&#xA;Tank" HorizontalAlignment="Left" Margin="42,155,0,0" VerticalAlignment="Top" Width="58" Height="47" FontSize="11" Click="GenTank_Click" Grid.RowSpan="2"/>
+        <Button x:Name="GenSupport" Content="Generate&#xD;&#xA;Support" HorizontalAlignment="Left" Margin="165,155,0,0" VerticalAlignment="Top" Width="58" Height="47" Grid.RowSpan="2" FontSize="11" Click="GenSupport_Click"/>
+        <Button x:Name="GenDamage" Content="Generate&#xD;&#xA;Damage" HorizontalAlignment="Left" Margin="105,155,0,0" VerticalAlignment="Top" Width="58" Height="47" Grid.RowSpan="2" FontSize="11" Click="GenDamage_Click"/>
+        <Label x:Name="Credits" Content="Open Source Overwatch Hero Gen by Pyan" HorizontalAlignment="Left" Margin="42,136,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="9" Width="181"/>
+        <Label x:Name="Link" Content="https://github.com/PY44N/OverwatchHeroGenerator" HorizontalAlignment="Left" Margin="24,152,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="9"/>
     </Grid>
 </Window>
