@@ -1,8 +1,8 @@
-local a = {}
+local Hero = {}
 
 local HeroNum
 
-function a:GenTank()
+function Hero:GenTank()
     HeroNum = math.random(1, 8)
 
     if HeroNum == 1 then
@@ -33,7 +33,7 @@ function a:GenTank()
     return "ERROR"
 end
 
-function a:GenDamage()
+function Hero:GenDamage()
     HeroNum = math.random(1, 17)
 
     if HeroNum == 1 then
@@ -91,7 +91,7 @@ function a:GenDamage()
     return "ERROR"
 end
 
-function a:GenSupport()
+function Hero:GenSupport()
     HeroNum = math.random(1, 7)
     
     if HeroNum == 1 then
@@ -119,7 +119,7 @@ function a:GenSupport()
     return "ERROR"
 end
 
-function a:Gen()
+function Hero:Gen()
     HeroNum = math.random(1, 32)
 
     if HeroNum == 1 then
@@ -222,4 +222,4 @@ function a:Gen()
     return "ERROR"
 end
 
-return a
+return Hero

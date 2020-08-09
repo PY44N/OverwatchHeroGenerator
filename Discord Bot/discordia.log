@@ -158,3 +158,10 @@
 2020-08-09 18:18:45 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
 2020-08-09 18:18:45 | [INFO]    | Shard 0 : Received HELLO
 2020-08-09 18:18:45 | [INFO]    | Shard 0 : Received READY
+2020-08-09 18:23:20 | [INFO]    | Discordia 2.8.3
+2020-08-09 18:23:20 | [INFO]    | Connecting to Discord...
+2020-08-09 18:23:20 | [INFO]    | Authenticated as Overwatch Hero Gen#7739
+2020-08-09 18:23:20 | [INFO]    | Launching shard 0 (1 out of 1)...
+2020-08-09 18:23:20 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2020-08-09 18:23:20 | [INFO]    | Shard 0 : Received HELLO
+2020-08-09 18:23:21 | [INFO]    | Shard 0 : Received READY
