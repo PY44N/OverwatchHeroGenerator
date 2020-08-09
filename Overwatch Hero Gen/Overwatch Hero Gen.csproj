@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{56B3A5D3-CC83-45CE-89F6-44856AB3B9FA}</ProjectGuid>
+    <ProjectGuid>{B3FC6F07-1ED4-4CC0-953A-EAFF44B8C617}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Overwatch_Hero_Gen</RootNamespace>
     <AssemblyName>Overwatch Hero Gen</AssemblyName>
