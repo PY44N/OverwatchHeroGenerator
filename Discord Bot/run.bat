@@ -1,2 +1,2 @@
-luvit bot
+node bot.js
 pause
