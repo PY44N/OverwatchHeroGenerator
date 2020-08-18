@@ -1,0 +1,10 @@
+C:\Users\pyan4\source\repos\OverwatchHeroGenerator\OverwatchHeroGenerator\bin\Debug\OverwatchHeroGenerator.exe.config
+C:\Users\pyan4\source\repos\OverwatchHeroGenerator\OverwatchHeroGenerator\bin\Debug\OverwatchHeroGenerator.exe
+C:\Users\pyan4\source\repos\OverwatchHeroGenerator\OverwatchHeroGenerator\bin\Debug\OverwatchHeroGenerator.pdb
+C:\Users\pyan4\source\repos\OverwatchHeroGenerator\OverwatchHeroGenerator\obj\Debug\OverwatchHeroGenerator.csprojAssemblyReference.cache
+C:\Users\pyan4\source\repos\OverwatchHeroGenerator\OverwatchHeroGenerator\obj\Debug\OverwatchHeroGenerator.Form1.resources
+C:\Users\pyan4\source\repos\OverwatchHeroGenerator\OverwatchHeroGenerator\obj\Debug\OverwatchHeroGenerator.Properties.Resources.resources
+C:\Users\pyan4\source\repos\OverwatchHeroGenerator\OverwatchHeroGenerator\obj\Debug\OverwatchHeroGenerator.csproj.GenerateResource.cache
+C:\Users\pyan4\source\repos\OverwatchHeroGenerator\OverwatchHeroGenerator\obj\Debug\OverwatchHeroGenerator.csproj.CoreCompileInputs.cache
+C:\Users\pyan4\source\repos\OverwatchHeroGenerator\OverwatchHeroGenerator\obj\Debug\OverwatchHeroGenerator.exe
+C:\Users\pyan4\source\repos\OverwatchHeroGenerator\OverwatchHeroGenerator\obj\Debug\OverwatchHeroGenerator.pdb
